@@ -1,0 +1,97 @@
+.block {
+    display: block;
+
+    color: white;
+    background-color: blueviolet;
+}
+
+a {
+    display: inline;
+}
+
+span {
+    color: wheat;
+    background-color: blue;
+}
+
+.caixa {
+    width: 500px;
+    height: 300px;
+
+    background-color: red;
+}
+
+.caixa2 {
+    width: 50%;
+    height: 100px;
+
+    background-color: yellow;
+}
+
+.vazamento {
+    background-color: green;
+
+    width: 30%;
+    min-height: 20px;
+}
+
+.excede {
+    width: 100px;
+    height: 100px;
+
+    overflow: scroll;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: purple;
+
+    float: right;
+}
+
+.circulo2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: yellow;
+
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+
+.circulo3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: pink;
+
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.circulo4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: orange;
+
+    position: fixed;
+    top: 200px;
+    right: 50px;
+}
+
+body {
+    height: 2000px;
+}
+
+.copyright {
+   position: sticky;
+}
